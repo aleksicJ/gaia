@@ -1,0 +1,8 @@
+# Period analysis of cepheids from GAIA
+
+In this project time-series analysis of anomalous cepheids from GAIA is performed. It can be roughly considered as three subtasks:
+1) Querying Results of Anomalous Cepheids (QuRAC)
+2) Period AnaLysis of Anomalous Cepheids (PALAC)
+3) Joint Analysis of Results of Anomalous Cepheids (JARAC)
+
+In the first part, GAIA database is queried for objects. Then, for each object, lightcurve is downloaded, and period is calculated. Finally, values for periods obtained from GAIA database and those calculated here can be compared.
