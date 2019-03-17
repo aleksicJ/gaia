@@ -6,3 +6,9 @@ In this project time-series analysis of anomalous cepheids from GAIA is performe
 3) Joint Analysis
 
 In the first part, GAIA database is queried for objects. Then, for each object, lightcurve is downloaded, and period is calculated. Finally, values for periods obtained from GAIA database and those calculated here can be compared.
+
+# Finding clusters in RRLyrae data
+
+Various properties of astronomical objects may have some correlation. Given a data set of 2D points, one can examine whether they exhibit any concentration. If so, groups of points with similar properties (clusters) can be found.
+
+In this notebook, periods and magnitudes of RRLyrae, obtained from GAIA database ae considered. Gaussian mixture model is used as the algorithm for calculatiing results.
